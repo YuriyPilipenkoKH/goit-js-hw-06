@@ -1,0 +1,32 @@
+ul {
+    list-style: none;
+}
+
+.wrapper {
+    padding: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter {
+    display: grid;
+    grid-template-columns: repeat(3, 6em);
+    place-items: center;
+    justify-content: center;
+
+   
+}
+.counter button{
+    margin: 0;
+    padding: 8px 22px;
+    border-radius: 8px;
+    border: 1px solid #777;
+    font-size: 1em;
+}
+
+.counter span{
+    font-size: 2em;
+    color:teal;
+}
