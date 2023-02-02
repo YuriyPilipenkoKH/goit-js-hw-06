@@ -15,7 +15,7 @@ const images = [
 
   const galleryList = document.querySelector('.gallery');
 //   console.log(galleryList);
-
+//gallery__image
   const galleryArray = [];
 
   for (const image of images) {
