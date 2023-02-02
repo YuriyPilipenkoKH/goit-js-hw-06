@@ -1,3 +1,7 @@
+body {
+    font-family: 'Prompt', sans-serif;
+}
+
 ul, li, img  {
     list-style: none;
     margin: 0;
@@ -53,6 +57,7 @@ ul, li, img  {
 }
 
 .task-5 {
+    flex-direction: column;
     gap: 20px;
 }
 
@@ -66,4 +71,14 @@ ul, li, img  {
   
   #validation-input.invalid {
     border-color: #f44336;
+  }
+
+  .task-7 {
+    flex-direction: column;
+  }
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
   }
