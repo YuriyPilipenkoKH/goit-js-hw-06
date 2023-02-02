@@ -82,3 +82,24 @@ ul, li, img  {
     flex-direction: column;
     gap: 16px;
   }
+
+  .color {
+
+    color: beige;
+    background-color: #777;
+    padding: 5px 12px;
+  }
+
+  #controls {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .task-10,
+  #boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
