@@ -16,11 +16,12 @@ function getRandomHexColor() {
   
   refs.input.addEventListener("input", (event) => {number = event.currentTarget.value;});
   refs.btnCreate.addEventListener("click", () => {createBoxes(number)});
-  refs.btnDestroy.addEventListener("click", () => {
-    refs.boxes.innerHTML = '';
-    size = 30;
-  })
-  
+  refs.btnDestroy.addEventListener("click", () => {destroyBoxes (number)
+   
+ });
+
+
+
   function createBoxes(amount) {
     const collection = [];
   
@@ -36,3 +37,11 @@ function getRandomHexColor() {
     
     refs.boxes.append(...collection);
   };
+
+  function destroyBoxes(number) {
+    refs.boxes.innerHTML = '';
+    size = 30;
+    refs.input.value = '';
+  }
+
+
