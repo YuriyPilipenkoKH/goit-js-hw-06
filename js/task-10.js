@@ -16,9 +16,7 @@ function getRandomHexColor() {
   
   refs.input.addEventListener("input", (event) => {number = event.currentTarget.value;});
   refs.btnCreate.addEventListener("click", () => {createBoxes(number)});
-  refs.btnDestroy.addEventListener("click", () => {destroyBoxes (number)
-   
- });
+  refs.btnDestroy.addEventListener("click", () => {destroyBoxes () });
 
 
 
@@ -40,7 +38,6 @@ function getRandomHexColor() {
 
   function destroyBoxes(number) {
     refs.boxes.innerHTML = '';
-    size = 30;
     refs.input.value = '';
   }
 
