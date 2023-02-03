@@ -1,5 +1,4 @@
 const inputToValidate = document.querySelector('#validation-input');
-// console.log(inputToValidate);
 
 inputToValidate.addEventListener("blur", (event) => {
     if (event.currentTarget.value.length !== Number(inputToValidate.dataset.length)) {

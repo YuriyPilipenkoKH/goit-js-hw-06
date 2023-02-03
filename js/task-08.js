@@ -5,7 +5,7 @@ form.addEventListener('submit', onFormSubmit)
 function onFormSubmit(event) {
     event.preventDefault();
 
-    console.log(event.currentTarget.elements[0].name)
+
     if (event.currentTarget.elements[0].value === "" || event.currentTarget.elements[1].value === "") {
         alert("Field is empty");
     };

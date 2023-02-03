@@ -14,15 +14,12 @@ const images = [
   ];
 
   const galleryList = document.querySelector('.gallery');
-//   console.log(galleryList);
-//gallery__image
   const galleryArray = [];
 
   for (const image of images) {
     const element = `<li><img class="gallery__image" src="${image.url}" alt="${image.alt}"/></li>`;
     galleryArray.push(element);
   }
-// console.log(galleryArray);  
 
   galleryList.insertAdjacentHTML('afterbegin',galleryArray.join(''));
 
